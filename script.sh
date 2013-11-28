@@ -5,7 +5,7 @@ cd vim-tmp
 sudo make install
 cd ..
 git clone https://github.com/coffenbacher/vim.git ~/.vim/
-cd ~/.vim/.vimrc ~/.vimrc
+cp ~/.vim/.vimrc ~/.vimrc
 
 git config --global user.name "Charles Offenbacher"
 git config --global user.email "charles.offenbacher@gmail.com"
